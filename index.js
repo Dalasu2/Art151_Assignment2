@@ -362,6 +362,8 @@ function displayCommand(cmd) {
                     printToConsole(tab4+file.fileName+file.fileExt, true);
                 });
                 break;
+            default:
+                mText = "Unrecognized command " + cmdList[0];
         }
     }
 
