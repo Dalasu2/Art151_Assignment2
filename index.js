@@ -1,4 +1,4 @@
-import gameScript, { gameplay, help, tab4 } from '../game.js';
+import gameScript, { gameplay, help, tab4 } from '/game.js';
 
 let state; // State of game
 
