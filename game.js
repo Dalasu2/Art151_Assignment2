@@ -270,12 +270,12 @@ export const gameplay = [
                         msg: [
                             "I can't remember. I'm sorry.",
                             "I wasn't paying attention.",
-                            "It all happened so fast, I can't remember if %gender_pronoun_l was old or young."
+                            "It all happened so fast, I can't remember if %guilty_pronoun_l was old or young."
                         ],
                         lies: [
                             "I can't remember. I'm sorry.",
                             "I wasn't paying attention.",
-                            "It all happened so fast, I can't remember if %gender_pronoun_l was old or young."
+                            "It all happened so fast, I can't remember if %guilty_pronoun_l was old or young."
                         ]
                     },
                     {
