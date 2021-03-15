@@ -92,7 +92,7 @@ body {
     width: 30vw;
     margin-left: 5px;
     background-color: white;
-    background-image: url("images/lineup_background.png");
+    background-image: url("../images/lineup_background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
