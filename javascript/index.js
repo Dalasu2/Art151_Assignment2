@@ -159,7 +159,7 @@ function updatePrompt(id) {
                 mText = mText.replaceAll("%prompt", msg);
             }
 
-            console.log(state.characters.find(c => c.guilty).info.stats.gender.toLowerCase());
+            // console.log(state.characters.find(c => c.guilty).info.stats.gender.toLowerCase());
         }
 
         mTextList.push(mText);
@@ -217,19 +217,14 @@ function selectOption(option) {
         state = Object.assign(state, {curCharId: -1, curCharName: "", curChar: null});
     }
 
-    console.log(option.nextText);
-
     if(option.nextText == 0) { // Fast Forward
         state = Object.assign(state, {time: 0});
         return;
     } else if(option.nextText < 0) { // Reset Game
         startGame();
         return;
-    } else if(option.nextText === 6) {
-        console.log(state.curChar.guilty);
     } else if(option.nextText > 9) {
         state.characters.find(c => c.info.name == state.curCharName).info.notes.push(option.text);
-        console.log(option.text);
     }
 
     if(option.updateState) {
