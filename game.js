@@ -154,12 +154,16 @@ export const gameplay = [
                         prompt: 2,
                         msg: [
                             "Yes.",
-                            "I'm not sure."
+                            "I'm not sure.",
+                            "I think so.",
+                            "Maybe."
                         ],
                         lies: [
-                            "Yes.",
-                            "No.",
-                            "I'm not sure."
+                            "I'm not sure.",
+                            "I think so.",
+                            "Maybe.",
+                            "I can't remember.",
+                            "No."
                         ]
                     },
                     {
@@ -167,15 +171,16 @@ export const gameplay = [
                         msg: [
                             "It's Tobias.",
                             "I think it's Tobias.",
-                            "I don't know his name."
+                            "I don't know his name.",
+                            "I can't remember"
                         ],
                         lies: [
                             "I think it's John.",
                             "I don't know.",
                             "I don't know his name.",
                             "I'm not too sure what his name was.",
-                            "I think it's Tobias.",
-                            "I can't remember."
+                            "I can't remember.",
+                            "I honestly forgot what his name was."
                         ]
                     },
                     {
@@ -312,13 +317,14 @@ export const gameplay = [
                         msg: [
                             "Obviously.",
                             "You tell me.",
-                            "I'm not sure."
+                            "Maybe.",
+                            "Probably."
                         ],
                         lies: [
-                            "Obviously.",
                             "You tell me.",
                             "No.",
-                            "I'm not sure."
+                            "I'm not sure.",
+                            "Maybe."
                         ]
                     },
                     {
@@ -331,9 +337,11 @@ export const gameplay = [
                         ],
                         lies: [
                             "I think it's John.",
+                            "I don't know.",
                             "I don't know his name.",
-                            "I don't know him.",
-                            "I think it's Tobias.",
+                            "I'm not too sure what his name was.",
+                            "I can't remember.",
+                            "I honestly forgot what his name was.",
                             "I never asked.",
                             "I don't have to answer any questions.",
                             "I can't remember off the top of my head."
