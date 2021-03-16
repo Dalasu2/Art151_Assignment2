@@ -220,6 +220,7 @@ span {
     left: 24%;
     font-size: large;
     line-height: 17.5px;
+    max-width: calc(100% - ((145px)));
 }
 
 #paper h2 {
