@@ -105,8 +105,8 @@ function updatePrompt(id) {
 
         let data = document.createElement("img");
         data.setAttribute("id", "icon");
-        if(id === 4 || (state.curChar && !state.curChar.guilty)) data.setAttribute("src", "../images/fired_icon.png");
-        else data.setAttribute("src", "../images/win_icon.png");
+        if(id === 4 || (state.curChar && !state.curChar.guilty)) data.setAttribute("src", "../../images/fired_icon.png");
+        else data.setAttribute("src", "../../images/win_icon.png");
         $("#screenWindow").append(data);
     }
 
